@@ -100,6 +100,7 @@ if(isset($_POST['adresse'])){
     $div .= "Altitude moyenne des stations : ".$alt_moy."m <br>";
     $div  .= "Nombre de stations dans la zone : ".$i;
 
+    //test de couleur
     if ($temp_moy < 3){
       $style =  'style="color:blue;"';
     }elseif($temp_moy >=3 && $temp_moy <14){
@@ -108,7 +109,6 @@ if(isset($_POST['adresse'])){
       $style =  'style="color:red;"';
     }
 
-  //var_dump($array);
 }
 
 
